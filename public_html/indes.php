@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html land="en">
+<html lang="en">
 	<head>
 		<meta charset="uff-8"/>
 		<title>Saul Bootstrap Wireframe Program</title>
