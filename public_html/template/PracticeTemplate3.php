@@ -37,48 +37,50 @@
 		<title>Basic Bootstrap Wireframe Exercise</title>
 	</head>
 
-	<body>
-		<nav class="navbar navbar-inverse">
-			<!-- logo and mobile toggle button get grouped together for better mobile display -->
-			<div class="navbar-header">
-				<!-- this is the mobile menu button -->
-				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-menu">
-					<span class="sr-only">main menu</span>
-					<span class="glyphicon glyphicon-menu-hamburger"></span>
-				</button>
-				<a class="navbar-brand" href="#">Trail-Quail: Albuquerque</a>
-			</div>
+	<body class="sfooter">
+		<div class="sfooter-content">
+			<nav class="navbar navbar-inverse">
+				<!-- logo and mobile toggle button get grouped together for better mobile display -->
+				<div class="navbar-header">
+					<!-- this is the mobile menu button -->
+					<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-menu">
+						<span class="sr-only">main menu</span>
+						<span class="glyphicon glyphicon-menu-hamburger"></span>
+					</button>
+					<a class="navbar-brand" href="#">Trail-Quail: Albuquerque</a>
+				</div>
 
-			<!-- here are your main nav links, grouped for toggling -->
-			<div class="collapse navbar-collapse" id="main-menu">
-				<u1 class="nav navbar-nav navbar-right"</u1>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Search Trails</a></li>
-				<li><a href="#">Log in</a></li>
-				<li><a href="#">About this site</a></li>
-			</div>
-		</nav>
+				<!-- here are your main nav links, grouped for toggling -->
+				<div class="collapse navbar-collapse" id="main-menu">
+					<u1 class="nav navbar-nav navbar-right"
+					</u1>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Search Trails</a></li>
+					<li><a href="#">Log in</a></li>
+					<li><a href="#">About this site</a></li>
+				</div>
+			</nav>
 
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">Column One: 12/12 columns, 100% of container width</div>
-			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">Column One: 12/12 columns, 100% of container width</div>
+				</div>
 
-			<div class="row">
-				<div class="col-md-3"> Column Two: 3/12 columns, 25% of container width.</div>
-				<div class="col-md-3"> Column Three: 3/12 columns, 25% of container width.</div>
-				<div class="col-md-3"> Column Four: 3/12 columns, 25% of container width.</div>
-				<div class="col-md-3"> Column Five: 3/12 columns, 25% of container width.</div>
-			</div>
-			<p></p>
+				<div class="row">
+					<div class="col-md-3"> Column Two: 3/12 columns, 25% of container width.</div>
+					<div class="col-md-3"> Column Three: 3/12 columns, 25% of container width.</div>
+					<div class="col-md-3"> Column Four: 3/12 columns, 25% of container width.</div>
+					<div class="col-md-3"> Column Five: 3/12 columns, 25% of container width.</div>
+				</div>
+				<p></p>
 
-			<div class="row">
-				<div class="col-md-6"> Column Six: 6/12 columns, 50% of container width.</div>
-				<div class="col-md-6"> Column Seven: 6/12 columns, 50% of container width.</div>
-			</div>
+				<div class="row">
+					<div class="col-md-6"> Column Six: 6/12 columns, 50% of container width.</div>
+					<div class="col-md-6"> Column Seven: 6/12 columns, 50% of container width.</div>
+				</div>
 
+			</div>
 		</div>
-
 		<footer class="footer">
 			<div class="container">
 				<p class="text-muted">This is a bootstrap assignment</p>
